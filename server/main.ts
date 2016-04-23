@@ -1,4 +1,4 @@
-import { Notes } from '../collections/notes.ts';
+import { Notes } from '../collections/notes.ts'
 
 Meteor.startup(() => {
 

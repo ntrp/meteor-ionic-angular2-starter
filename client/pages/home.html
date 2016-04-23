@@ -1,0 +1,14 @@
+<ion-navbar *navbar primary>
+    <ion-title>Angular2 Meteor</ion-title>
+</ion-navbar>
+
+<ion-content>
+    <ion-card *ngFor="#note of notes">
+        <ion-card-content>
+            <ion-card-header>
+                {{note.title}}
+            </ion-card-header>
+            <p>{{note.text}}</p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
