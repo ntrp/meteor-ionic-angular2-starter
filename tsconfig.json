@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "node_modules/angular2-meteor/**/*",
+        "!node_modules/**/*"
+    ],
+    "files": [
+        "client/app.ts",
+        "client/lib/meteor-app.ts",
+        "collections/notes.ts",
+        "server/main.ts",
+        "typings/browser.d.ts",
+        "typings/browser/ambient/meteor/index.d.ts",
+        "typings/main.d.ts",
+        "typings/main/ambient/meteor/index.d.ts"
+    ],
+    "compileOnSave": false,
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
