@@ -10,7 +10,10 @@ import {Notes} from '../collections/notes';
 import {HomePage} from './pages/home';
 
 @MeteorIonicApp({
-    templateUrl: 'client/app.html'
+    templateUrl: 'client/app.html',
+    config: {
+        mode: "md"
+    }
 })
 class App extends MeteorComponent {
     notes: Mongo.Cursor<Object>;

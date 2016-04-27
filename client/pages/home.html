@@ -1,5 +1,12 @@
 <ion-navbar *navbar primary>
-    <ion-title>Angular2 Meteor</ion-title>
+    <ion-buttons start>
+    </ion-buttons>
+    <ion-title>Meteor Ionic (Angular2)</ion-title>
+    <ion-buttons end>
+        <button royal (click)="add()">
+            <ion-icon name="add"></ion-icon>
+        </button>
+    </ion-buttons>
 </ion-navbar>
 
 <ion-content>
@@ -10,5 +17,8 @@
             </ion-card-header>
             <p>{{note.text}}</p>
         </ion-card-content>
+        <ion-item>
+            <button clear item-left (click)="delete(note)">Delete</button>
+        </ion-item>
     </ion-card>
 </ion-content>

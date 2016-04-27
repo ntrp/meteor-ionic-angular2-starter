@@ -14,7 +14,7 @@
     ],
     "files": [
         "client/app.ts",
-        "client/lib/meteor-app.ts",
+        "client/lib/lorem.ts",
         "client/lib/meteor-ionic-app.ts",
         "client/pages/home.ts",
         "collections/notes.ts",
