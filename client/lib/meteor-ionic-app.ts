@@ -5,7 +5,7 @@ import 'zone.js/dist/zone';
 import {provide, Type, Provider, IterableDiffers, Component} from 'angular2/core';
 import {METEOR_PROVIDERS} from 'angular2-meteor';
 import {bootstrap} from 'angular2/platform/browser';
-import {IonicApp, IONIC_DIRECTIVES, ionicProviders, TapClick} from 'ionic-framework';
+import {IonicApp, IONIC_DIRECTIVES, ionicProviders, TapClick} from '../../node_modules/ionic2/ionic/index';
 
 export function MeteorIonicApp(args: any = {}) {
     return function(cls) {
